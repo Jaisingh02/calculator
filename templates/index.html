@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔐 Random Password Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h2>🔐 Random Password Generator</h2>
+            
+            <form method="POST">
+                <label for="length">Password Length:</label>
+                <input type="number" name="length" min="4" max="32" value="8" required>
+                <button type="submit">Generate Password</button>
+            </form>
+
+            {% if password %}
+            <div class="result-box">
+                <p>✅ Generated Password:</p>
+                <input type="text" value="{{ password }}" readonly>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
