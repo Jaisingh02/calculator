@@ -11,6 +11,7 @@ def calculator():
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
+            
         except ValueError:
             print("Invalid input. Please enter numeric values.")
             return
@@ -29,5 +30,5 @@ def calculator():
     else:
         print("Invalid choice")
 
-# Call the function
+# Calls the function
 calculator()
