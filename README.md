@@ -11,7 +11,6 @@ A command-line interface (CLI) calculator built with Python that performs basic 
 - 🛡️ Input error handling for non-numeric values
 
 ---
-
 ## 🚀 How to Run 
 
 1. Make sure you have Python 3 installed.
