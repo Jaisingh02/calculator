@@ -12,7 +12,7 @@ A command-line interface (CLI) calculator built with Python that performs basic 
 
 ---
 
-## 🚀 How to Run 
+## 🚀 How to Run
 
 1. Make sure you have Python 3 installed.
 2. Run the script:
